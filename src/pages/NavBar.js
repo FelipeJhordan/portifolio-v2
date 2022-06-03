@@ -1,6 +1,7 @@
 import { XIcon } from "@heroicons/react/solid";
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import tw from "tailwind-styled-components";
+import MyContext from "../context/MyContext";
 
 const JSIcon = require("../assets/icons/JSIcon.png");
 
@@ -38,7 +39,8 @@ const ActiveContainer = tw.div`
 
 const NavBar = ({ showPage, setShowPage }) => {
   const [hidePage, setHidePage] = useState([]);
-
+  const {languageData} = useContext(MyContext)
+  const {navbar} = languageData 
   return (
     <div className="flex flex-row h-full relative">
       {showPage === "home" ? (
@@ -52,7 +54,7 @@ const NavBar = ({ showPage, setShowPage }) => {
             alt="JS Icon"
             className="w-7 mr-1  text-yellow_vs"
           />
-          Home.js
+          {navbar.home}.js
         </ActiveContainer>
       ) : (
         <Container
@@ -65,7 +67,7 @@ const NavBar = ({ showPage, setShowPage }) => {
             alt="JS Icon"
             className="w-7 mr-1  text-yellow_vs"
           />
-          Home.js
+          {navbar.home}.js
         </Container>
       )}
       {hidePage.includes("about") ? null : showPage === "about" ? (
@@ -79,7 +81,7 @@ const NavBar = ({ showPage, setShowPage }) => {
             alt="JS Icon"
             className="w-7 mr-1  text-yellow_vs"
           />
-          About.js
+          {navbar.about}.js
           <XIcon
             className="w-6 ml-4 hover:bg-gray-600 hover:rounded"
             onClick={(e) => {
@@ -100,7 +102,7 @@ const NavBar = ({ showPage, setShowPage }) => {
             alt="JS Icon"
             className="w-7 mr-1  text-yellow_vs"
           />
-          About.js
+          {navbar.about}.js
           <XIcon
             className="w-6 ml-4 hover:bg-gray-600 hover:rounded"
             onClick={(e) => {
@@ -122,7 +124,7 @@ const NavBar = ({ showPage, setShowPage }) => {
             alt="JS Icon"
             className="w-7 mr-1  text-yellow_vs"
           />
-          Resume.js
+          {navbar.resume}.js
           <XIcon
             className="w-6 ml-4 hover:bg-gray-600 hover:rounded"
             onClick={(e) => {
@@ -143,7 +145,7 @@ const NavBar = ({ showPage, setShowPage }) => {
             alt="JS Icon"
             className="w-7 mr-1  text-yellow_vs"
           />
-          Resume.js
+          {navbar.resume}.js
           <XIcon
             className="w-6 ml-4 hover:bg-gray-600 hover:rounded"
             onClick={(e) => {
@@ -162,7 +164,7 @@ const NavBar = ({ showPage, setShowPage }) => {
           }}
         >
           <img src={JSIcon} alt="JS Icon" className="w-7 mr-1 text-yellow_vs" />
-          Contact.js
+          {navbar.contact}.js
           <XIcon
             className="w-6 ml-4 hover:bg-gray-600 hover:rounded"
             onClick={(e) => {
@@ -179,7 +181,7 @@ const NavBar = ({ showPage, setShowPage }) => {
           }}
         >
           <img src={JSIcon} alt="JS Icon" className="w-7 mr-1 text-yellow_vs" />
-          Contact.js
+          {navbar.contact}.js
           <XIcon
             className="w-6 ml-4 hover:bg-gray-600 hover:rounded"
             onClick={(e) => {
