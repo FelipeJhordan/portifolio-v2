@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+import { XIcon } from "@heroicons/react/solid";
+import React, { useState } from "react";
 import tw from "tailwind-styled-components";
-import { CogIcon, XIcon } from "@heroicons/react/solid";
 
 const JSIcon = require("../assets/icons/JSIcon.png");
 
@@ -34,11 +34,13 @@ const ActiveContainer = tw.div`
   text-gray-300
 `;
 
+
+
 const NavBar = ({ showPage, setShowPage }) => {
   const [hidePage, setHidePage] = useState([]);
 
   return (
-    <div className="flex flex-row h-full">
+    <div className="flex flex-row h-full relative">
       {showPage === "home" ? (
         <ActiveContainer
           onClick={() => {
@@ -189,6 +191,7 @@ const NavBar = ({ showPage, setShowPage }) => {
             }}
           />
         </Container>
+
       )}
     </div>
   );
