@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url(./pages/styles/scroll-bar.css);
+
 body {
   background-color: #1e1e1e;
 }
