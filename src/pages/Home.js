@@ -1,17 +1,44 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
+import tw from "tailwind-styled-components";
+import MyContext from "../context/MyContext";
 import About from "./About";
 import Contact from "./Contact";
-import LeftBar from "./LeftBar";
-import Resume from "./Resume";
-import MobileMenu from "./MobileMenu";
 import Header from "./Header";
+import LeftBar from "./LeftBar";
+import MobileMenu from "./MobileMenu";
 import NavBar from "./NavBar";
+import Resume from "./Resume";
+
+
+const LanguageButton  = tw.button`
+  cursor-pointer
+  font-medium
+  px-5
+  py-4
+  uppercase
+  place-self-baseline	
+  right-0
+  text-sky-100			  
+  font-bold	
+  top-0
+  z-50
+  text-xl	
+  hover:text-3xl	
+  rounded
+  fixed`
 
 const Home = () => {
   const [showPage, setShowPage] = useState("home");
+  const context = useContext(MyContext)
+
 
   return (
-    <div id="home" className="App flex h-max bg-[#1e1e1e]">
+    <div id="home" className="App flex h-max bg-[#1e1e1e] ">
+      <LanguageButton onClick={context.setLanguage}>
+      {
+        context.currentLanguage
+      }
+    </LanguageButton>
       <div className="bg-[#262526] fixed h-full hidden lg:block">
         <LeftBar />
       </div>
