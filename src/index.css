@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @import url(./pages/styles/scroll-bar.css);
+@import url(./modal.css);
 
 body {
   background-color: #1e1e1e;

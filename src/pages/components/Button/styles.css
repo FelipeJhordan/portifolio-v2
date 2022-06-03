@@ -1,0 +1,49 @@
+.container-button {
+    width: 10rem;
+    height: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--bg-button);
+    border-radius: 2rem;
+    transition: 0.3s linear;
+}
+
+.container-button:hover {
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 1px #fff;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--bg-main);
+}
+
+.container-btn-send {
+    background-color: #fff
+}
+
+
+.btn-send {
+    border-bottom: 1.6px solid var(--bg-main);
+    opacity: 0.9;
+}
+
+.btn-send:hover {
+    border-bottom: 1.6px solid var(--bg-main);
+    opacity: 1;
+}
+
+.btn-submited {
+    border-bottom: none;
+    font-size: 0.7em;
+    color: #222;
+}
+
+.btn-submited:hover {
+    border-bottom: none;
+}

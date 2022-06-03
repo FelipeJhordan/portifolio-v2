@@ -1,20 +1,27 @@
-import React from "react";
 import { IdentificationIcon } from "@heroicons/react/solid";
+import React, {
+  useContext,
+  useState
+} from "react";
+import MyContext from "../context/MyContext";
 
-const PythonLogo = require("../assets/logos/PythonLogo.png");
+const AngularLogo = require("../assets/logos/AngularLogo.png");
 const ReactLogo = require("../assets/logos/ReactLogo.png");
 const TypescriptLogo = require("../assets/logos/TypescriptLogo.png");
-const JsLogo = require("../assets/logos/JsLogo.png");
-const NextLogo = require("../assets/logos/NextLogo.png");
-const TailwindLogo = require("../assets/logos/TailwindLogo.png");
+const JsLogo = require("../assets/logos/JsLogo.png"); 
+const NestLogo = require("../assets/logos/NestLogo.png");
+const AwsLogo = require("../assets/logos/AwsLogo.png");
 const SqlLogo = require("../assets/logos/SqlLogo.png");
-const ReduxLogo = require("../assets/logos/ReduxLogo.png");
-const FirebaseLogo = require("../assets/logos/FirebaseLogo.png");
+const SpringLogo = require("../assets/logos/SpringLogo.jpg");
+const GitLogoC = require("../assets/logos/GitLogoC.png");
 const MongoDBLogo = require("../assets/logos/MongoDBLogo.png");
 const NodeJSLogo = require("../assets/logos/NodeJSLogo.png");
 const DockerLogo = require("../assets/logos/DockerLogo.png");
 
 const About = () => {
+  const [hidePage, setHidePage] = useState([]);
+  const {languageData} = useContext(MyContext)
+  const {about} = languageData 
   return (
     <div
       id="About"
@@ -24,23 +31,32 @@ const About = () => {
         <div className="table">
           <IdentificationIcon className="h-5 w-5 mr-4 text-yellow_vs" />{" "}
           <code className="table-cell text-[#e6f1ff] text-3xl mt-5 whitespace-nowrap">
-            About Me
+            {
+              about.title
+            }
           </code>
           <div className="table-cell border-b border-b-[#e6f1ff] border-opacity-25 w-full"></div>
         </div>
         <div className="text-[#a2aabc] text-lg mt-5">
           <code>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id eros
-            non nisi vulputate eleifend. Vestibulum erat ipsum, lacinia ut nibh
-            ut, pulvinar interdum lorem. Aliquam et nisi eu risus ultrices
-            suscipit nec nec quam. Suspendisse pretium fermentum luctus.
-            Maecenas vitae vestibulum ipsum, ut varius diam. Phasellus mattis
-            nunc vel purus maximus, sit amet congue ligula tincidunt. Nulla
-            tristique luctus lacinia. Nullam ut tortor arcu.
+         {
+           about.text.split("</br>").map((text) => {
+             const newText = text.replace('</br>','')
+             return <p key={newText+'3'}>
+               {
+                 newText
+               }
+             </p>
+             
+           })
+         }
+
+
+
           </code>
           <br />
           <br />
-          <code>Aenean in mi non leo placerat suscipit a eget odio:</code>
+          <code>{about.expert}</code>
           <div className="grid grid-cols-3 gap-2 text-sm mt-5 text-brown_vs">
             <div className="flex flex-row  mb-3">
               <img
@@ -52,11 +68,11 @@ const About = () => {
             </div>
             <div className="flex flex-row mb-3">
               <img
-                src={NextLogo}
-                alt="Next Logo"
+                src={NestLogo}
+                alt="Nest Logo"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
-              <code>Next.js</code>
+              <code>Nest</code>
             </div>
             <div className="flex flex-row mb-3">
               <img
@@ -76,35 +92,35 @@ const About = () => {
             </div>
             <div className="flex flex-row  mb-3">
               <img
-                src={TailwindLogo}
-                alt="Tailwind Logo"
+                src={AwsLogo}
+                alt="Aws"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
-              <code>Tailwind CSS</code>
+              <code>AWS</code>
             </div>
             <div className="flex flex-row mb-3">
               <img
-                src={ReduxLogo}
-                alt="Redux Logo"
+                src={SpringLogo}
+                alt="Spring Logo"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
-              <code>Redux</code>
+              <code>Spring</code>
             </div>
             <div className="flex flex-row  mb-3">
               <img
-                src={PythonLogo}
-                alt="Python Logo"
+                src={AngularLogo}
+                alt="Angular Logo"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
-              <code>Python</code>
+              <code>Angular</code>
             </div>
             <div className="flex flex-row mb-3">
               <img
-                src={FirebaseLogo}
-                alt="Firebase Logo"
+                src={GitLogoC}
+                alt="Git Logo"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
-              <code>Firebase</code>
+              <code>Git/Git Flow</code>
             </div>
             <div className="flex flex-row mb-3">
               <img
