@@ -39,14 +39,14 @@ const Home = () => {
         context.currentLanguage
       }
     </LanguageButton>
-      <div className="bg-[#262526] fixed h-full hidden lg:block">
+      <div className="bg-[#262526] fixed h-full hidden lg:block z-50">
         <LeftBar />
       </div>
       <div className="bg-[#1e1e1e] lg:pl-72 h-full ">
         <div className="lg:hidden">
           <MobileMenu />
         </div>
-        <div className="bg-[#424042] h-16 w-full fixed hidden lg:block">
+        <div className="bg-[#424042] h-16 w-full fixed hidden lg:block z-50">
           <NavBar
             showPage={showPage}
             setShowPage={setShowPage}

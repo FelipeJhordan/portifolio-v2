@@ -18,6 +18,8 @@ const Container = tw.div`
   text-lg
   font-medium
   text-gray-300
+  z-auto
+
 `;
 
 const ActiveContainer = tw.div`
@@ -42,7 +44,8 @@ const NavBar = ({ showPage, setShowPage }) => {
   const {languageData} = useContext(MyContext)
   const {navbar} = languageData 
   return (
-    <div className="flex flex-row h-full relative">
+    <div className="flex flex-row h-full relative   z-50
+    ">
       {showPage === "home" ? (
         <ActiveContainer
           onClick={() => {
