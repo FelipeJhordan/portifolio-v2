@@ -4,7 +4,7 @@ const ptLanguage = {
         title: "Projetos",
     },
     navbar: {
-        home: 'Ínicio',
+        home: 'Inicio',
         about: 'Sobre',
         resume: 'Resumo',
         contact: 'Contato'
