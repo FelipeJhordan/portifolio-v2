@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import { useContext, useState } from "react";
 import tw from "tailwind-styled-components";
 import MyContext from "../context/MyContext";
 import About from "./About";
@@ -21,7 +21,7 @@ const LanguageButton  = tw.button`
   text-sky-100			  
   font-bold	
   top-0
-  z-50
+  z-1000
   text-xl	
   hover:text-3xl	
   rounded
@@ -33,8 +33,8 @@ const Home = () => {
 
 
   return (
-    <div id="home" className="App flex h-max bg-[#1e1e1e] ">
-      <LanguageButton onClick={context.setLanguage}>
+    <div id="home" className="App flex h-25 bg-[#1e1e1e] ">
+      <LanguageButton onClick={context.setLanguage} style={{zIndex: "10000"}}>
       {
         context.currentLanguage
       }
