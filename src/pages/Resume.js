@@ -1,9 +1,8 @@
 import { ClipboardListIcon } from "@heroicons/react/solid";
-import React, { useContext } from "react";
+import { useContext } from "react";
 import MyContext from '../context/MyContext';
 
 const Resume = () => {
-  const context = useContext(MyContext)
   const {languageData} = useContext(MyContext)
   const {resume} = languageData 
 
@@ -141,8 +140,8 @@ const Resume = () => {
       </div>
       <div className="flex flex-row justify-center m-5">
       <a href={require("../assets/curriculo/cv-backend-felipe-atualizado.pdf")} download="cv-backend-felipe_atualizado" className="hover:text-gray-400	text-grey-darkest">
-      <button class="bg-grey-light text-gray-400	hover:text-slate-100		 hover:bg-light text-gray-400  font-bold py-2 px-4 rounded inline-flex items-center">
-  <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+      <button className="bg-grey-light text-gray-400	hover:text-slate-100		 hover:bg-light text-gray-400  font-bold py-2 px-4 rounded inline-flex items-center">
+  <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
   <span className="">{resume.download}</span>
 </button>
       </a>  
