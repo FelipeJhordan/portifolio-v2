@@ -1,5 +1,5 @@
 import { MailIcon } from "@heroicons/react/solid";
-import React, { useContext, useState } from "react";
+import { useContext, useState } from "react";
 import MyContext from '../context/MyContext';
 import Modal from "./components/Modal";
 
@@ -23,7 +23,7 @@ const Contact = () => {
       <div className="table mx-12 lg:mx-60">
         <MailIcon className="h-5 w-5 mr-4 text-yellow_vs" />
         <code className="table-cell text-[#e6f1ff] text-3xl mt-5 whitespace-nowrap">
-          Get In Touch
+          { contact.title }
         </code>
         <div className="table-cell border-b border-b-[#e6f1ff] border-opacity-25 w-full"></div>
       </div>
