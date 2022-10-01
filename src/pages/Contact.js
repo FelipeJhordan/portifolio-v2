@@ -33,13 +33,13 @@ const Contact = () => {
          {contact.message2}
         </code>
         <button onClick={onContact} className=" border border-lightblue_vs text-lightblue_vs mt-10 p-3 rounded hover:bg-opacity-10 hover:bg-lightblue_vs w-1/2">
-          <a href="mailto:youssefkizou@gmail.com">
+          <a href="mailto:felipejordan.alves@gmail.com">
             <code>{contact.contactButtonTitle}</code>
           </a>
         </button>
-        {
+        {/* {
               openModal ? <Modal hasChanged={openModal} hasClosed={onCloseModal} />: false
-          }
+          } */}
       </div>
     </div>
   );
