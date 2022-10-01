@@ -62,7 +62,7 @@ const Resume = () => {
           {
             resume.jobs.list.map(job => (
               <>
-                 <div className="w-3/4">
+                 <div key={job.title} className="w-3/4">
             <code className="text-blue_vs">{
               job.title
             }</code>
