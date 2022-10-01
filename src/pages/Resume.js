@@ -58,65 +58,33 @@ const Resume = () => {
             }</code>
           </div>
          <div className="flex flex-col w-3/4">
-         <div className="w-3/4">
+         
+          {
+            resume.jobs.list.map(job => (
+              <>
+                 <div className="w-3/4">
             <code className="text-blue_vs">{
-              resume.jobs.list[0].title
+              job.title
             }</code>
             <br />
             <code className="italic text-sm text-lightblue_vs">
               {
-              resume.jobs.list[0].place
+              job.place
               }
             </code>
             <br />
             <code className="text-xs text-brown_vs">• {
-              resume.jobs.list[0].date
+              job.date
             }</code>
             <br />
             <code className="text-sm">
-              <br /> {resume.jobs.list[0].details}
+              <br /> {job.details}
             </code>
           </div>
           <br/>
-         <div className="w-3/4">
-            <code className="text-blue_vs">{
-              resume.jobs.list[1].title
-            }</code>
-            <br />
-            <code className="italic text-sm text-lightblue_vs">
-              {
-              resume.jobs.list[1].place
-              }
-            </code>
-            <br />
-            <code className="text-xs text-brown_vs">• {
-              resume.jobs.list[1].date
-            }</code>
-            <br />
-            <code className="text-sm">
-              <br /> {resume.jobs.list[1].details}
-            </code>
-          </div>
-          <br/>
-         <div className="w-3/4">
-            <code className="text-blue_vs">{
-              resume.jobs.list[2].title
-            }</code>
-            <br />
-            <code className="italic text-sm text-lightblue_vs">
-              {
-              resume.jobs.list[2].place
-              }
-            </code>
-            <br />
-            <code className="text-xs text-brown_vs">• {
-              resume.jobs.list[2].date
-            }</code>
-            <br />
-            <code className="text-sm">
-              <br /> {resume.jobs.list[2].details}
-            </code>
-          </div>
+              </>
+            ))
+          }
         </div>
         </div>
         <div className="flex flex-row pt-10 flex-wrap">
