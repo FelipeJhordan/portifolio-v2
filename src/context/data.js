@@ -61,6 +61,12 @@ Estou focando meus estudos em NodeJS, por ser a tecnologia que mais tenho vivên
                     place: 'Usemobile',
                     date: 'Janeiro 2022 - Abril 2022',
                     details: 'Desenvolvimento focado no back-end utilizando o NESTJS.'
+                },
+                {
+                    title: 'Desenvolvedor de software',
+                    place: 'Madeira Madeira',
+                    date: 'Junho 2022 - Current',
+                    details: 'Desenvolvimento focado no back-end, utilizando ferramentas do ambiente node como  NESTJS/Express/Serverless com outras tecnologias como: Mongodb, Redis, AWS ( S3, SNS, SQS, Lambda), Mongodb e Scrum (Jira).'
                 }
             ]
         },
@@ -77,6 +83,7 @@ Estou focando meus estudos em NodeJS, por ser a tecnologia que mais tenho vivên
                 "Clean Code",
                 "Noções de Spring",
                 "Html, CSS e Javascript",
+                "Golang",
                 "Noções de  React / Angular2+"]
         }
     },
@@ -152,6 +159,12 @@ I'm focusing my studies on NodeJS, because it's the technology I have the most e
                     place: 'Usemobile',
                     date: 'January 2022 - April 2022',
                     details: 'Development focused  in back-end using NESTJS framework.'
+                },
+                {
+                    title: 'Software Developer',
+                    place: 'Madeira Madeira',
+                    date: 'Junho 2022 - Current',
+                    details: 'Development focused  in back-end using node frameworks, like NESTJS/Express/Serverless with others tecnologies like: Mongodb, Redis, AWS ( S3, SNS, SQS, Lambda), Mongodb and Scrum(Jira) .'
                 }
             ]
         },
@@ -168,6 +181,7 @@ I'm focusing my studies on NodeJS, because it's the technology I have the most e
                 "Clean Code",
                 "Notions of Spring",
                 "Html, CSS and Javascript",
+                "Golang",
                 "Notions of  React / Angular2+"]
         }
     },
