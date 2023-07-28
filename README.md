@@ -4,7 +4,7 @@
 
 Site de portifólio, inspirado no design do visual studio code, no tema padrão.
 
-## Como foi feito
+## O que foi adicionado
 
 - Utilizado um template base ( Foram feitas bastante mudanças feitas por mim e correções no layout ).
 - Criado um botão para alterar a linguagem das informações, de acordo com o usuário.
@@ -23,7 +23,7 @@ Site de portifólio, inspirado no design do visual studio code, no tema padrão.
 
 ## Links
 
-- https://kizou.org/ ( template original)
+- https://kizou.org/ ( template original )
 - https://docs.google.com/spreadsheets/d/1TLDi1Ge0wWGyfJypEWrCXF9zZyTiybD4zYmapMGm-EE/edit?usp=sharing ( mensagens enviadas pelos visitantes )
 - https://portifolio-v2.vercel.app/ ( portifólio v2)
 - https://portifolio-felipe-jhordan.herokuapp.com/ ( portifólio antigo )
