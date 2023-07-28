@@ -13,7 +13,7 @@ const NestLogo = require("../assets/logos/NestLogo.png");
 const AwsLogo = require("../assets/logos/AwsLogo.png");
 const SqlLogo = require("../assets/logos/SqlLogo.png");
 const SpringLogo = require("../assets/logos/SpringLogo.jpg");
-const GitLogoC = require("../assets/logos/GitLogoC.png");
+const GoLogo = require("../assets/logos/GoLogo.png");
 const MongoDBLogo = require("../assets/logos/MongoDBLogo.png");
 const NodeJSLogo = require("../assets/logos/NodeJSLogo.png");
 const DockerLogo = require("../assets/logos/DockerLogo.png");
@@ -116,11 +116,11 @@ const About = () => {
             </div>
             <div className="flex flex-row mb-3">
               <img
-                src={GitLogoC}
+                src={GoLogo}
                 alt="Git Logo"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
-              <code>Git/Git Flow</code>
+              <code>Golang</code>
             </div>
             <div className="flex flex-row mb-3">
               <img

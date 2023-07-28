@@ -1,7 +1,6 @@
 import { MailIcon } from "@heroicons/react/solid";
 import { useContext, useState } from "react";
 import MyContext from '../context/MyContext';
-import Modal from "./components/Modal";
 
 const Contact = () => {
   const context = useContext(MyContext)
@@ -29,13 +28,12 @@ const Contact = () => {
       </div>
       <div className="text-[#a2aabc] text-lg mt-5 mx-12 lg:mx-60 flex flex-col items-center text-justify">
         <code>
-         {contact.message} <br />
-         {contact.message2}
+         {contact.message}
         </code>
-        <button onClick={onContact} className=" border border-lightblue_vs text-lightblue_vs mt-10 p-3 rounded hover:bg-opacity-10 hover:bg-lightblue_vs w-1/2">
-          <a href="mailto:felipejordan.alves@gmail.com">
+        <button onClick={(e) => window.open("https://api.whatsapp.com/send?phone=5534996535688&text=Ola", "_blank")} className=" border border-lightblue_vs text-lightblue_vs mt-10 p-3 rounded hover:bg-opacity-10 hover:bg-lightblue_vs w-1/2">
+         
             <code>{contact.contactButtonTitle}</code>
-          </a>
+         
         </button>
         {/* {
               openModal ? <Modal hasChanged={openModal} hasClosed={onCloseModal} />: false

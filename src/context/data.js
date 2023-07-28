@@ -17,9 +17,8 @@ const ptLanguage = {
     about: {
         title: 'Sobre mim',
         text: `Já concluí o ensino médio, e atualmente estou cursando Análise e Desenvolvimento de Sistemas pela IFTM, inclusive também tenho um curso Técnico de Informática pela UFTM.</br>
-Possuo experiência fundamentalmente com em Angular2+ e Node ( AdonisJS e NestJS), além de ter conhecimento e práticas no meu github com Kotlin, Java e Python.</br>
-No momento estou livre, e portanto estou estudando/treinando e melhorando meu portfólio, para mostrar minhas habilidades e inclusive mostrar que sou apto para desenvolver código limpo e confiável.</br>
-Estou focando meus estudos em NodeJS, por ser a tecnologia que mais tenho vivência e experiência, porém posso atuar com outras tecnologias back-end como por exemplo Golang, elixir ou Java.`,
+Possuo experiência fundamentalmente com em Angular2+, Node ( AdonisJS , NestJS e Serverless) e Golang, além de ter conhecimento e práticas no meu github com Kotlin, Java e Python.</br>
+Recentemente fiz um investimento nos meus estudos, para conquistar habilidades como desenvolvedor full cycle.`,
         expert: 'Atualmente eu possuo conhecimento ou experiência nas seguintes tecnologias:'
 
     },
@@ -66,7 +65,7 @@ Estou focando meus estudos em NodeJS, por ser a tecnologia que mais tenho vivên
                     title: 'Desenvolvedor de software',
                     place: 'Madeira Madeira',
                     date: 'Junho 2022 - Current',
-                    details: 'Desenvolvimento focado no back-end, utilizando ferramentas do ambiente node como  NESTJS/Express/Serverless com outras tecnologias como: Mongodb, Redis, AWS ( S3, SNS, SQS, Lambda), Mongodb e Scrum (Jira).'
+                    details: 'Desenvolvimento focado no back-end, utilizando ferramentas do ambiente node como  NESTJS/Express/Serverless com outras tecnologias como: Golang, Mongodb, Redis, AWS ( S3, SNS, SQS, Lambda), Mongodb e Scrum (Jira). Também atu'
                 }
             ]
         },
@@ -84,13 +83,12 @@ Estou focando meus estudos em NodeJS, por ser a tecnologia que mais tenho vivên
                 "Noções de Spring",
                 "Html, CSS e Javascript",
                 "Golang",
-                "Noções de  React / Angular2+"]
+                "Noções de  React / Angular2+", ]
         }
     },
     contact: {
         title: 'Entrar em contato',
-        message: 'Atualmente procurando por uma nova oportunidade, você pode me contactar clicando no botão abaixo e me enviando uma mensagem',
-        message2: 'Qualquer outra questão você pode dizer oi, sinta-se livre para me contactar e eu vou tentar dar o meu melhor para você!',
+        message: 'Estou atuamente na madeira madeira, porém sinta-se livre para me enviar alguma mensagem ou feedback.',
         contactButtonTitle: 'Contato'
 
     },
@@ -113,13 +111,11 @@ const enLanguage = {
     },
     about: {
         title: 'About Me',
-        text: `I have already completed high school, and I am currently studying Systems Analysis and Development at IFTM, and I also have a Computer Technician course at UFTM.</br>
+        text: `I've already finished high school, and I'm currently studying Systems Analysis and Development at IFTM, and I also have a Computer Technician course at UFTM.</br>
+        I have fundamentally experience with Angular2+, Node ( AdonisJS , NestJS and Serverless) and Golang, in addition to having knowledge and practices in my github with Kotlin, Java and Python.</br>
+        I recently made an investment in my studies to gain skills as a full cycle developer.`,
+        expert: 'I currently have knowledge or experience in the following technologies:'
 
-I have fundamental experience with Angular2+ and Node (AdonisJS and NestJS), in addition to having knowledge and practices in my github with Kotlin, Java and Python.</br>
-
-At the moment I'm free, so I'm studying/training and improving my portfolio, to show my skills and even show that I'm able to develop clean and reliable code.</br>
-I'm focusing my studies on NodeJS, because it's the technology I have the most experience and experience, but I can work with other back-end technologies such as Golang, elixir or Java.`,
-    expert: 'I currently have knowledge or experience in the following technologies:'
     },
     resume: {
         title: 'Resume',
@@ -164,7 +160,7 @@ I'm focusing my studies on NodeJS, because it's the technology I have the most e
                     title: 'Software Developer',
                     place: 'Madeira Madeira',
                     date: 'Junho 2022 - Current',
-                    details: 'Development focused  in back-end using node frameworks, like NESTJS/Express/Serverless with others tecnologies like: Mongodb, Redis, AWS ( S3, SNS, SQS, Lambda), Mongodb and Scrum(Jira) .'
+                    details: 'Development focused  in back-end using node frameworks, like NESTJS/Express/Serverless with others tecnologies like: Golang, Mongodb, Redis, AWS ( S3, SNS, SQS, Lambda), Mongodb and Scrum(Jira) .'
                 }
             ]
         },
@@ -187,8 +183,7 @@ I'm focusing my studies on NodeJS, because it's the technology I have the most e
     },
     contact: {
         title: 'Get in Touch',
-        message: "Currently looking for a new opportunity, you can contact me by clicking on the button below.",
-        message2: 'Whether you have a question or just want to say hi, feel free to contact me and I’ll try my best to get back to you!',
+        message:` I'm currently at Madeira Madeira, however feel free to send me any messages or feedback.`,
         contactButtonTitle: 'Contact'
     }
 }
