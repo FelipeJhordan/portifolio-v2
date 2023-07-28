@@ -65,7 +65,7 @@ Recentemente fiz um investimento nos meus estudos, para conquistar habilidades c
                     title: 'Desenvolvedor de software',
                     place: 'Madeira Madeira',
                     date: 'Junho 2022 - Current',
-                    details: 'Desenvolvimento focado no back-end, utilizando ferramentas do ambiente node como  NESTJS/Express/Serverless com outras tecnologias como: Golang, Mongodb, Redis, AWS ( S3, SNS, SQS, Lambda), Mongodb e Scrum (Jira). Também atu'
+                    details: 'Desenvolvimento focado no back-end, utilizando ferramentas do ambiente node como  NESTJS/Express/Serverless com outras tecnologias como: Golang, Mongodb, Redis, AWS ( S3, SNS, SQS, Lambda), Mongodb e Scrum (Jira).'
                 }
             ]
         },
