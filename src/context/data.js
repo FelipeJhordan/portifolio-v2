@@ -77,7 +77,7 @@ Recentemente fiz um investimento nos meus estudos, para conquistar habilidades c
                     title: 'Dev full-stack PL',
                     place: 'Luizalabs',
                     date: 'Current',
-                    details: ''
+                    details: 'Desenvolvedor full-stack PL no time de logística'
                 }
             ]
         },
@@ -184,7 +184,7 @@ I recently made an investment in my studies, to gain skills as a full-cycle deve
                     title: 'Dev full-stack PL',
                     place: 'Luizalabs',
                     date: 'Current',
-                    details: ''
+                    details: 'Full-stack development in the LuizaLabs Logistic team'
                 }
             ]
         },
