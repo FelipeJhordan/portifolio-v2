@@ -16,7 +16,7 @@ const ptLanguage = {
     },
     about: {
         title: 'Sobre mim',
-        text: `Já concluí o ensino médio, e atualmente estou cursando Análise e Desenvolvimento de Sistemas pela IFTM, inclusive também tenho um curso Técnico de Informática pela UFTM.</br>
+        text: `Formado em Análise e Desenvolvimento de Sistemas pela IFTM, e formado em  Técnico de Informática pela UFTM.</br>
 Possuo experiência fundamentalmente com em Angular2+, Node ( AdonisJS , NestJS e Serverless) e Golang, além de ter conhecimento e práticas no meu github com Kotlin, Java e Python.</br>
 Recentemente fiz um investimento nos meus estudos, para conquistar habilidades como desenvolvedor full cycle.`,
         expert: 'Atualmente eu possuo conhecimento ou experiência nas seguintes tecnologias:'
@@ -36,7 +36,7 @@ Recentemente fiz um investimento nos meus estudos, para conquistar habilidades c
                 {
                     place: 'IFTM',
                     title: 'Superior em Análise e Desenvolvimento de Sistemas',
-                    date: ' Março 2018 - Atual'
+                    date: ' Março 2018 - Dezembro 2023'
                 }
             ]
         },
@@ -64,26 +64,38 @@ Recentemente fiz um investimento nos meus estudos, para conquistar habilidades c
                 {
                     title: 'Desenvolvedor de software',
                     place: 'Madeira Madeira',
-                    date: 'Junho 2022 - Current',
+                    date: 'Junho 2022 - Outubro 2023',
                     details: 'Desenvolvimento focado no back-end, utilizando ferramentas do ambiente node como  NESTJS/Express/Serverless com outras tecnologias como: Golang, Mongodb, Redis, AWS ( S3, SNS, SQS, Lambda), Mongodb e Scrum (Jira).'
+                },
+                {
+                    title: 'Dev full-stack',
+                    place: 'Monitora tech',
+                    date: 'Dezembro 2023 - Maio 2024',
+                    details: 'Desenvolvimento de sistema JAVA/Outsystem/Angular para o Serasa Experian / Manutenção de sistema legado em Java/JSP'
+                },
+                {
+                    title: 'Dev full-stack PL',
+                    place: 'Luizalabs',
+                    date: 'Current',
+                    details: ''
                 }
             ]
         },
          skills: {
             list: [
                 "NodeJS/Typescript",
-                "Banco de dados relacional",
-                "Banco de dados não relacional",
+                "Java",
+                "Spring",
+                "Banco de dados Relacional/Não Relacional",
                 "Git/GitFlow",
                 "AWS",
                 "Teste/TDD",
                 "Gof/Solid",
                 "Docker",
                 "Clean Code",
-                "Noções de Spring",
                 "Html, CSS e Javascript",
                 "Golang",
-                "Noções de  React / Angular2+", ]
+                "Spring/Angular", ]
         }
     },
     contact: {
@@ -111,9 +123,9 @@ const enLanguage = {
     },
     about: {
         title: 'About Me',
-        text: `I've already finished high school, and I'm currently studying Systems Analysis and Development at IFTM, and I also have a Computer Technician course at UFTM.</br>
-        I have fundamentally experience with Angular2+, Node ( AdonisJS , NestJS and Serverless) and Golang, in addition to having knowledge and practices in my github with Kotlin, Java and Python.</br>
-        I recently made an investment in my studies to gain skills as a full cycle developer.`,
+        text: `Graduated in Systems Analysis and Development from IFTM, and graduated in IT Technician from UFTM.</br>
+I primarily have experience with Angular2+, Node (AdonisJS, NestJS and Serverless) and Golang, in addition to having knowledge and practices on my github with Kotlin, Java and Python.</br>
+I recently made an investment in my studies, to gain skills as a full-cycle developer.`,
         expert: 'I currently have knowledge or experience in the following technologies:'
 
     },
@@ -131,7 +143,7 @@ const enLanguage = {
                 {
                     place: 'IFTM',
                     title: 'Superior in Systems Analysis and Development',
-                    date: ' March 2018 - Current'
+                    date: ' March 2018 - December 2023'
                 }
             ]
         },
@@ -159,31 +171,43 @@ const enLanguage = {
                 {
                     title: 'Software Developer',
                     place: 'Madeira Madeira',
-                    date: 'Junho 2022 - Current',
+                    date: 'Jully 2022 - October 2023',
                     details: 'Development focused  in back-end using node frameworks, like NESTJS/Express/Serverless with others tecnologies like: Golang, Mongodb, Redis, AWS ( S3, SNS, SQS, Lambda), Mongodb and Scrum(Jira) .'
+                },
+                {
+                    title: 'Dev full-stack',
+                    place: 'Monitora tech',
+                    date: 'December 2023 - May 2024',
+                    details: 'JAVA/Outsystem/Angular system development for Serasa Experian / Legacy system maintenance in Java/JSP'
+                },
+                {
+                    title: 'Dev full-stack PL',
+                    place: 'Luizalabs',
+                    date: 'Current',
+                    details: ''
                 }
             ]
         },
         skills: {
             list: [
                 "NodeJS/Typescript",
-                "Relational Database",
-                "No Relational Database",
+                "Java",
+                "Spring",
+                "Relational Database/No Relational Database",
                 "Git/GitFlow",
                 "AWS",
                 "Test/TDD",
                 "Gof/Solid",
                 "Docker",
                 "Clean Code",
-                "Notions of Spring",
                 "Html, CSS and Javascript",
                 "Golang",
-                "Notions of  React / Angular2+"]
+                "React/Angular2+"]
         }
     },
     contact: {
         title: 'Get in Touch',
-        message:` I'm currently at Madeira Madeira, however feel free to send me any messages or feedback.`,
+        message:` I'm currently at LuizaLabs, however feel free to send me any messages or feedback.`,
         contactButtonTitle: 'Contact'
     }
 }
