@@ -100,7 +100,7 @@ Recentemente fiz um investimento nos meus estudos, para conquistar habilidades c
     },
     contact: {
         title: 'Entrar em contato',
-        message: 'Estou atuamente na madeira madeira, porém sinta-se livre para me enviar alguma mensagem ou feedback.',
+        message: 'Estou atuamente na luizalabs, porém sinta-se livre para me enviar alguma mensagem ou feedback.',
         contactButtonTitle: 'Contato'
 
     },
